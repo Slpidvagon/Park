@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="600px" viewBox="0 0 800 600" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <!-- Фон удалён -->
+    
+    <!-- Колесо обозрения -->
+    <circle cx="400" cy="300" r="150" stroke="#2563eb" stroke-width="10" fill="none"/>
+    <circle cx="400" cy="300" r="140" stroke="#3b82f6" stroke-width="5" fill="none"/>
+    
+    <!-- Кабинки -->
+    <g fill="#60a5fa">
+        <circle cx="400" cy="150" r="20"/>
+        <circle cx="400" cy="450" r="20"/>
+        <circle cx="250" cy="300" r="20"/>
+        <circle cx="550" cy="300" r="20"/>
+        <circle cx="293" cy="193" r="20"/>
+        <circle cx="507" cy="193" r="20"/>
+        <circle cx="293" cy="407" r="20"/>
+        <circle cx="507" cy="407" r="20"/>
+    </g>
+    
+    <!-- Американские горки -->
+    <path d="M100,400 Q200,200 300,400 T500,400 T700,400" 
+          stroke="#2563eb" 
+          stroke-width="8" 
+          fill="none"/>
+    
+    <!-- Текст -->
+    <text x="400" y="550" 
+          font-family="Arial" 
+          font-size="48" 
+          font-weight="bold" 
+          text-anchor="middle" 
+          fill="#1e40af">
+        ПАРК ЧУДЕС
+    </text>
+    
+    <!-- Звёзды -->
+    <g fill="#fcd34d">
+        <path d="M700,100 l15,30 l-30,-15 l30,15 l-15,-30" />
+        <path d="M150,150 l15,30 l-30,-15 l30,15 l-15,-30" />
+        <path d="M650,200 l15,30 l-30,-15 l30,15 l-15,-30" />
+    </g>
+</svg> 

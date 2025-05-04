@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация - Knott's Berry Farm</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/logo.svg" alt="Knott's Berry Farm Logo" class="logo-image">
+                    </a>
+                </div>
+                <div class="burger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="nav-overlay"></div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="additional-info.html">Аттракционы</a></li>
+                    <li><a href="tickets.html">Билеты</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+                <div class="nav-icons">
+                    <a href="cart.html" class="icon-link cart-icon">
+                        <img src="assets/cart.svg" alt="Корзина">
+                    </a>
+                    <a href="register.html" class="icon-link profile-icon">
+                        <img src="assets/profile.svg" alt="Профиль">
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="register-main">
+        <section class="register-section">
+            <div class="register-container">
+                <h1>Регистрация</h1>
+                <form class="register-form">
+                    <div class="form-group">
+                        <label for="name">Имя</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Телефон</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Пароль</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="confirm-password">Подтвердите пароль</label>
+                        <input type="password" id="confirm-password" name="confirm-password" required>
+                    </div>
+                    <div class="form-group checkbox">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <label for="terms">Я согласен с условиями использования</label>
+                    </div>
+                    <button type="submit" class="register-button">Зарегистрироваться</button>
+                    <div class="login-link">
+                        Уже есть аккаунт? <a href="#">Войти</a>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>Knott's Berry Farm</h3>
+                <p>8039 Beach Boulevard</p>
+                <p>Buena Park, CA 90620</p>
+                <p>Телефон: +1 (714) 220-5200</p>
+                <p>Email: info@knotts.com</p>
+            </div>
+            <div class="footer-social">
+                <h3>Социальные сети</h3>
+                <div class="social-links">
+                    <a href="#" class="social-link">Facebook</a>
+                    <a href="#" class="social-link">Instagram</a>
+                    <a href="#" class="social-link">Twitter</a>
+                    <a href="#" class="social-link">YouTube</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Knott's Berry Farm. Все права защищены.</p>
+        </div>
+    </footer>
+    <script src="js/burger-menu.js"></script>
+</body>
+</html> 

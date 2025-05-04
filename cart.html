@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина - Knott's Berry Farm</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/logo.svg" alt="Knott's Berry Farm Logo" class="logo-image">
+                    </a>
+                </div>
+                <div class="burger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="nav-overlay"></div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="additional-info.html">Аттракционы</a></li>
+                    <li><a href="tickets.html">Билеты</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+                <div class="nav-icons">
+                    <a href="cart.html" class="icon-link cart-icon">
+                        <img src="assets/cart.svg" alt="Корзина">
+                        <span class="cart-count">0</span>
+                    </a>
+                    <a href="register.html" class="icon-link profile-icon">
+                        <img src="assets/profile.svg" alt="Профиль">
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="cart-main">
+        <section class="cart-section">
+            <h1>Корзина</h1>
+            <div id="cart-items">
+                <!-- Здесь будут отображаться товары -->
+            </div>
+            <div class="cart-summary">
+                <div class="cart-total">
+                    <h3>Итого:</h3>
+                    <span id="total-amount">$0.00</span>
+                </div>
+                <button class="checkout-button">Оформить заказ</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>Knott's Berry Farm</h3>
+                <p>8039 Beach Boulevard</p>
+                <p>Buena Park, CA 90620</p>
+                <p>Телефон: +1 (714) 220-5200</p>
+                <p>Email: info@knotts.com</p>
+            </div>
+            <div class="footer-social">
+                <h3>Социальные сети</h3>
+                <div class="social-links">
+                    <a href="#" class="social-link">Facebook</a>
+                    <a href="#" class="social-link">Instagram</a>
+                    <a href="#" class="social-link">Twitter</a>
+                    <a href="#" class="social-link">YouTube</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Knott's Berry Farm. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="js/cart.js"></script>
+    <script src="js/burger-menu.js"></script>
+</body>
+</html> 

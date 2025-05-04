@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Билеты - Knott's Berry Farm</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/logo.svg" alt="Knott's Berry Farm Logo" class="logo-image">
+                    </a>
+                </div>
+                <div class="burger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="nav-overlay"></div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="additional-info.html">Аттракционы</a></li>
+                    <li><a href="tickets.html">Билеты</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+                <div class="nav-icons">
+                    <a href="cart.html" class="icon-link cart-icon">
+                        <img src="assets/cart.svg" alt="Корзина">
+                        <span class="cart-count">0</span>
+                    </a>
+                    <a href="register.html" class="icon-link profile-icon">
+                        <img src="assets/profile.svg" alt="Профиль">
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="tickets-main">
+        <div class="tickets-grid">
+            <div class="ticket-card" data-ticket-id="1">
+                <img src="tickets_images/1.png" alt="Ежедневный вход">
+                <h3>Ежедневный вход</h3>
+                <p class="price">$62</p>
+                <button class="add-to-cart-btn">В корзину</button>
+            </div>
+
+            <div class="ticket-card" data-ticket-id="2">
+                <img src="tickets_images/2.png" alt="Пакет отелей">
+                <h3>Пакет отелей</h3>
+                <p class="price">$262</p>
+                <button class="add-to-cart-btn">В корзину</button>
+            </div>
+
+            <div class="ticket-card" data-ticket-id="3">
+                <img src="tickets_images/3.png" alt="Билет с другом">
+                <h3>Билет с другом</h3>
+                <p class="price">$50</p>
+                <button class="add-to-cart-btn">В корзину</button>
+            </div>
+
+            <div class="ticket-card" data-ticket-id="4">
+                <img src="tickets_images/4.png" alt="Все включено">
+                <h3>Все включено</h3>
+                <p class="price">$242</p>
+                <button class="add-to-cart-btn">В корзину</button>
+            </div>
+
+            <div class="ticket-card" data-ticket-id="5">
+                <img src="tickets_images/5.png" alt="Пакет Birthday">
+                <h3>Пакет Birthday</h3>
+                <p class="price">$90.99</p>
+                <button class="add-to-cart-btn">В корзину</button>
+            </div>
+
+            <div class="ticket-card" data-ticket-id="6">
+                <img src="tickets_images/6.png" alt="2025 Season Pass">
+                <h3>2025 Season Pass</h3>
+                <p class="price">$16/mo*</p>
+                <button class="add-to-cart-btn">В корзину</button>
+            </div>
+
+            <div class="ticket-card" data-ticket-id="7">
+                <img src="tickets_images/7.png" alt="2025 Gold Pass">
+                <h3>2025 Gold Pass</h3>
+                <p class="price">$20/mo*</p>
+                <button class="add-to-cart-btn">В корзину</button>
+            </div>
+
+            <div class="ticket-card" data-ticket-id="8">
+                <img src="tickets_images/8.png" alt="2025 Prestige Pass">
+                <h3>2025 Prestige Pass</h3>
+                <p class="price">$54/mo*</p>
+                <button class="add-to-cart-btn">В корзину</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>Knott's Berry Farm</h3>
+                <p>8039 Beach Boulevard</p>
+                <p>Buena Park, CA 90620</p>
+                <p>Телефон: +1 (714) 220-5200</p>
+                <p>Email: info@knotts.com</p>
+            </div>
+            <div class="footer-social">
+                <h3>Социальные сети</h3>
+                <div class="social-links">
+                    <a href="#" class="social-link">Facebook</a>
+                    <a href="#" class="social-link">Instagram</a>
+                    <a href="#" class="social-link">Twitter</a>
+                    <a href="#" class="social-link">YouTube</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Knott's Berry Farm. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="js/tickets.js"></script>
+    <script src="js/burger-menu.js"></script>
+</body>
+</html> 
