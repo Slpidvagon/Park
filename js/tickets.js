@@ -82,6 +82,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function animateCartIcon() {
         const cartIcon = document.querySelector('.cart-icon');
         if (!cartIcon) return;
+        if (window.innerWidth <= 768) return; // Отключаем анимацию на мобильных
         cartIcon.classList.add('cart-animation');
         setTimeout(() => {
             cartIcon.classList.remove('cart-animation');
