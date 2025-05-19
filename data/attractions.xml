@@ -24,6 +24,13 @@
             <image>additional_images/fourth.png</image>
         </zone>
     </zones>
+    <attractions>
+        <attraction>
+            <name>Комната страха</name>
+            <description>Испытай свои нервы на прочность!</description>
+            <level>Средний</level>
+        </attraction>
+    </attractions>
 
    
 </info> 
